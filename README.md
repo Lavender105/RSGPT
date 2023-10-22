@@ -5,7 +5,8 @@ Yuan Hu, Jianlong Yuan, Congcong Wen, Xiaonan Lu, Xiang Li☨
 
 ☨corresponding author
 
-<a href='https://rsgpt.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2307.15266'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+<!-- <a href='https://rsgpt.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  -->
+<a href='https://arxiv.org/abs/2307.15266'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
 
 ## :fire: Updates
