@@ -12,6 +12,7 @@ This is an ongoing project. We are working on increasing the dataset size.
 
 
 ## :fire: Updates
+* **[2023.11.10]** A survey paper about vision-language models in remote sensing. [RSVML](https://arxiv.org/pdf/2305.05726.pdf).
 * **[2023.10.22]** The RSICap dataset and code will be released upon paper acceptance.
 * **[2023.10.22]** We release the evaluation dataset RSIEval. Please fill out this [form](https://docs.google.com/forms/d/1h5ydiswunM_EMfZZtyJjNiTMpeOzRwooXh73AOqokzU/edit) to get the dataset.
 
