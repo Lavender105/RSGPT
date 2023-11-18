@@ -1,7 +1,7 @@
 
 <font size='5'>**RSGPT: A Remote Sensing Vision Language Model and Benchmark**</font>
 
-Yuan Hu, Jianlong Yuan, Congcong Wen, Xiaonan Lu, Xiang Li☨
+[Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Jianlong Yuan, Congcong Wen, Xiaonan Lu, [Xiang Li☨](https://xiangli.ac.cn)
 
 ☨corresponding author
 
