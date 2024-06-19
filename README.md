@@ -12,8 +12,9 @@ This is an ongoing project. We are working on increasing the dataset size.
 
 
 ## :fire: Updates
+* **[2024.06.19]** We release the VRSBench, A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding. VRSBench contains 29,614 images, with 29,614 human-verified detailed captions, 52,472 object references, and 123,221 question-answer pairs. check [VRSBench Project Page](https://vrsbench.github.io/).
 * **[2024.05.23]** We release the RSICap dataset. Please fill out this [form](https://docs.google.com/forms/d/1h5ydiswunM_EMfZZtyJjNiTMpeOzRwooXh73AOqokzU/edit) to get both RSICap and RSIEval dataset.
-* **[2023.11.10]** A survey paper about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
+* **[2023.11.10]** Our survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
 * **[2023.10.22]** The RSICap dataset and code will be released upon paper acceptance.
 * **[2023.10.22]** We release the evaluation dataset RSIEval. Please fill out this [form](https://docs.google.com/forms/d/1h5ydiswunM_EMfZZtyJjNiTMpeOzRwooXh73AOqokzU/edit) to get both the RSIEval dataset.
 
