@@ -10,6 +10,20 @@
 
 This is an ongoing project. We are working on increasing the dataset size.
 
+## Related Projects
+
+<font size='5'>**VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding**</font>
+
+Xiang Li, Jian Ding, Mohamed Elhoseiny
+
+<a href='https://vrsbench.github.io'><img src='https://img.shields.io/badge/Project-Page-Green'></a> <a href='https://arxiv.org/abs/2406.12384'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>  <a href='https://huggingface.co/datasets/xiang709/VRSBench'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue'>
+
+<font size='5'>**Vision-language models in remote sensing: Current progress and future trends**</font>
+
+[Xiang Li☨](https://xiangli.ac.cn), [Congcong Wen](https://wencc.xyz/), [Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Zhenghang Yuan, [Xiao Xiang Zhu](https://www.professoren.tum.de/en/zhu-xiaoxiang)
+
+<a href='[https://arxiv.org/abs/2307.15266](https://ieeexplore.ieee.org/abstract/document/10506064/)'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
+
 
 ## :fire: Updates
 * **[2024.06.19]** We release the VRSBench, A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding. VRSBench contains 29,614 images, with 29,614 human-verified detailed captions, 52,472 object references, and 123,221 question-answer pairs. check [VRSBench Project Page](https://vrsbench.github.io/).
