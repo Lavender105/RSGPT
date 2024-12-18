@@ -26,6 +26,7 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 
 ## :fire: Updates
+* **[2024.12.18]** We release the [manual scoring results](https://drive.google.com/file/d/1e3joLIiWfUgena17Dx8wZPWGNjs7vGua/view?usp=sharing) for RSIEval.
 * **[2024.06.19]** We release the VRSBench, A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding. VRSBench contains 29,614 images, with 29,614 human-verified detailed captions, 52,472 object references, and 123,221 question-answer pairs. check [VRSBench Project Page](https://vrsbench.github.io/).
 * **[2024.05.23]** We release the RSICap dataset. Please fill out this [form](https://docs.google.com/forms/d/1h5ydiswunM_EMfZZtyJjNiTMpeOzRwooXh73AOqokzU/edit) to get both RSICap and RSIEval dataset.
 * **[2023.11.10]** Our survey about vision-language models in remote sensing. [RSVLM](https://arxiv.org/pdf/2305.05726.pdf).
