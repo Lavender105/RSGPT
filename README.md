@@ -45,12 +45,12 @@ Our model is based on finetuning [InstructBLIP](https://github.com/salesforce/LA
 ## 🚀 Installation
 Set up a conda environment using the provided `environment.yml` file:
 
-# Step 1: Create the environment
+### Step 1: Create the environment
 ```
 conda env create -f environment.yml
 ```
 
-# Step 2: Activate the environment
+### Step 2: Activate the environment
 ```
 conda activate rsgpt
 ```
