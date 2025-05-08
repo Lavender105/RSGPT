@@ -26,6 +26,7 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 
 ## :fire: Updates
+* **[2025.05.08]** We release the code for training and testing RSGPT.
 * **[2024.12.18]** We release the [manual scoring results](https://drive.google.com/file/d/1e3joLIiWfUgena17Dx8wZPWGNjs7vGua/view?usp=sharing) for RSIEval.
 * **[2024.06.19]** We release the VRSBench, A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding. VRSBench contains 29,614 images, with 29,614 human-verified detailed captions, 52,472 object references, and 123,221 question-answer pairs. check [VRSBench Project Page](https://vrsbench.github.io/).
 * **[2024.05.23]** We release the RSICap dataset. Please fill out this [form](https://docs.google.com/forms/d/1h5ydiswunM_EMfZZtyJjNiTMpeOzRwooXh73AOqokzU/edit) to get both RSICap and RSIEval dataset.
@@ -40,6 +41,35 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 ## Code
 The idea of finetuning our vision-language model is borrowed from [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4).
 Our model is based on finetuning [InstructBLIP](https://github.com/salesforce/LAVIS/blob/main/projects/instructblip/README.md) using our RSICap dataset.
+
+## 🚀 Installation
+Set up a conda environment using the provided `environment.yml` file:
+
+# Step 1: Create the environment
+```
+conda env create -f environment.yml
+```
+
+# Step 2: Activate the environment
+```
+conda activate rsgpt
+```
+
+## Training
+```
+torchrun --nproc_per_node=8 train.py --cfg-path train_configs/rsgpt_train.yaml
+```
+
+## Testing
+Test image captioning:
+```
+python test.py --cfg-path eval_configs/rsgpt_eval.yaml --gpu-id 0 --out-path rsgpt/output --task ic
+```
+
+Test visual question answering:
+```
+python test.py --cfg-path eval_configs/rsgpt_eval.yaml --gpu-id 0 --out-path rsgpt/output --task vqa
+```
 
 ## Acknowledgement
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). A popular open-source vision-language model.
