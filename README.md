@@ -81,11 +81,14 @@ python test.py --cfg-path eval_configs/rsgpt_eval.yaml --gpu-id 0 --out-path rsg
 If you're using RSGPT in your research or applications, please cite using this BibTeX:
 
 ```bibtex
-@article{hu2023rsgpt,
-  title={RSGPT: A Remote Sensing Vision Language Model and Benchmark},
-  author={Hu, Yuan and Yuan, Jianlong and Wen, Congcong and Lu, Xiaonan and Li, Xiang},
-  journal={arXiv preprint arXiv:2307.15266},
-  year={2023}
+@article{hu2025rsgpt,
+  title={Rsgpt: A remote sensing vision language model and benchmark},
+  author={Hu, Yuan and Yuan, Jianlong and Wen, Congcong and Lu, Xiaonan and Liu, Yu and Li, Xiang},
+  journal={ISPRS Journal of Photogrammetry and Remote Sensing},
+  volume={224},
+  pages={272--286},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
