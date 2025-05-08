@@ -1,0 +1,8 @@
+<Img><ImageHere></Img> Describe this image in detail.
+<Img><ImageHere></Img> Take a look at this image and describe what you notice.
+<Img><ImageHere></Img> Please provide a detailed description of the picture.
+<Img><ImageHere></Img> Could you describe the contents of this image for me?
+<Img><ImageHere></Img> Write a short description for the image.
+<Img><ImageHere></Img> Briefly describe the content of the image.
+<Img><ImageHere></Img> Could you use a few words to describe what you perceive in the photo?
+<Img><ImageHere></Img> Can you briefly explain what you see in the image?

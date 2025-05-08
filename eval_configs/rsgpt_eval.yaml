@@ -1,0 +1,19 @@
+model:
+  arch: rsgpt
+  model_type: vicuna13b
+  max_txt_len: 160
+  pretrained: "/home/huyuan/projects/RSGPT/rsgpt/output/rsgpt/20250210110/checkpoint_4.pth"
+
+
+datasets:
+  cc_sbu_align:
+    vis_processor:
+      train:
+        name: "blip2_image_eval"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+run:
+  task: image_text_pretrain

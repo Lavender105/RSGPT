@@ -1,0 +1,5 @@
+datasets:
+  ucm_instruction:
+    data_type: images
+    build_info:
+      storage: dataset/UCM_captions/

@@ -1,0 +1,5 @@
+datasets:
+  rsicd_instruction:
+    data_type: images
+    build_info:
+      storage: dataset/rsicd/
