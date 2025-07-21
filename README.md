@@ -1,7 +1,7 @@
 
 <font size='5'>**RSGPT: A Remote Sensing Vision Language Model and Benchmark**</font>
 
-[Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Jianlong Yuan, Congcong Wen, Xiaonan Lu, [Xiang Li☨](https://xiangli.ac.cn)
+[Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Jianlong Yuan, [Congcong Wen](https://wencc.xyz), Xiaonan Lu, [Xiang Li☨](https://xiangli.ac.cn)
 
 ☨corresponding author
 
@@ -12,6 +12,29 @@ This is an ongoing project. We are working on increasing the dataset size.
 
 ## Related Projects
 
+<font size='5'>**RS-RAG: Bridging Remote Sensing Imagery and Comprehensive Knowledge with a Multi-Modal Dataset and Retrieval-Augmented Generation Model**</font>
+
+[Congcong Wen*](https://wencc.xyz/), Yiting Lin*, Xiaokang Qu, Nan Li, Yong Liao, Hui Lin, [Xiang Li](https://xiangli.ac.cn)
+
+<a href="https://github.com/CongcongWen1208/RS-RAG"><img src="https://img.shields.io/badge/GitHub-Repo-black?logo=github"></a> <a href='https://arxiv.org/abs/2504.04988'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a> 
+
+
+
+<font size='5'>**FedRSCLIP: Federated learning for remote sensing scene classification using vision-language models**</font>
+
+Hui Lin*, Chao Zhang*, Danfeng Hong, Kexin Dong, and [Congcong Wen☨](https://wencc.xyz)
+
+<a href="https://github.com/CongcongWen1208/FedRSCLIP"><img src="https://img.shields.io/badge/GitHub-Repo-black?logo=github"></a> <a href='https://ieeexplore.ieee.org/document/10988823'><img src='https://img.shields.io/badge/Paper-IEEE-green'></a>  
+
+
+<font size='5'>**RS-MoE: A Vision–Language Model With Mixture of Experts for Remote Sensing Image Captioning and Visual Question Answering**</font>
+
+Hui Lin*, Danfeng Hong*, Shuhang Ge*, Chuyao Luo, Kai Jiang, Hao Jin, and [Congcong Wen☨](https://wencc.xyz)  
+
+<a href="https://github.com/CongcongWen1208/RS-MoE"><img src="https://img.shields.io/badge/GitHub-Repo-black?logo=github"></a> <a href='https://ieeexplore.ieee.org/document/10909568'><img src='https://img.shields.io/badge/Paper-IEEE-green'></a>  
+
+
+
 <font size='5'>**VRSBench: A Versatile Vision-Language Benchmark Dataset for Remote Sensing Image Understanding**</font>
 
 Xiang Li, Jian Ding, Mohamed Elhoseiny
@@ -20,10 +43,15 @@ Xiang Li, Jian Ding, Mohamed Elhoseiny
 
 <font size='5'>**Vision-language models in remote sensing: Current progress and future trends**</font>
 
-[Xiang Li☨](https://xiangli.ac.cn), [Congcong Wen](https://wencc.xyz/), [Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Zhenghang Yuan, [Xiao Xiang Zhu](https://www.professoren.tum.de/en/zhu-xiaoxiang)
+[Xiang Li*☨](https://xiangli.ac.cn), [Congcong Wen*](https://wencc.xyz/), [Yuan Hu*](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Zhenghang Yuan, [Xiao Xiang Zhu](https://www.professoren.tum.de/en/zhu-xiaoxiang)
 
 <a href='[https://arxiv.org/abs/2307.15266](https://ieeexplore.ieee.org/abstract/document/10506064/)'><img src='https://img.shields.io/badge/Paper-Arxiv-red'></a>
 
+<font size='5'>**RS-CLIP: Zero Shot Remote Sensing Scene Classification via Contrastive Vision-Language Supervision**</font>
+
+[Xiang Li](https://xiangli.ac.cn), [Congcong Wen](https://wencc.xyz/), [Yuan Hu](https://scholar.google.com.sg/citations?user=NFRuz4kAAAAJ&hl=zh-CN), Nan Zhou 
+
+<a href="https://github.com/lx709/RS-CLIP"><img src="https://img.shields.io/badge/GitHub-Repo-black?logo=github"></a> <a href='https://www.sciencedirect.com/science/article/pii/S1569843223003217'><img src='https://img.shields.io/badge/Paper-Elsevier-orange'></a>  
 
 ## :fire: Updates
 * **[2025.05.08]** We release the code for training and testing RSGPT.
