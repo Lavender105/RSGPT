@@ -99,6 +99,9 @@ Test visual question answering:
 python test.py --cfg-path eval_configs/rsgpt_eval.yaml --gpu-id 0 --out-path rsgpt/output --task vqa
 ```
 
+## Licensing Information
+The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+
 ## Acknowledgement
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). A popular open-source vision-language model.
 + [InstructBLIP](https://github.com/salesforce/LAVIS/blob/main/projects/instructblip/README.md). The model architecture of RSGPT follows InstructBLIP. Don't forget to check out this great open-source work if you don't know it before!
