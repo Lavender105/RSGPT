@@ -100,7 +100,7 @@ python test.py --cfg-path eval_configs/rsgpt_eval.yaml --gpu-id 0 --out-path rsg
 ```
 
 ## Licensing Information
-The dataset is released under the [CC-BY-4.0]([https://creativecommons.org/licenses/by-nc/4.0/deed.en](https://creativecommons.org/licenses/by/4.0/deed.en)), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.
+Our images are borrowed from [DOTA](https://captain-whu.github.io/DOTA/dataset.html) dataset. All images and their associated annotations in DOTA can be used for academic purposes only, but any commercial use is prohibited.
 
 ## Acknowledgement
 + [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4). A popular open-source vision-language model.
