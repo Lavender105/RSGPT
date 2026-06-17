@@ -81,7 +81,7 @@ if args.task == 'ic':
     outputs = []
     for i, img in enumerate(tqdm(imgs)):
         raw_image = Image.open(os.path.join(img_dir, img)).convert("RGB")
-        image = vis_processor(raw_image).unsqueeze(0).to('cuda')
+        image = vis_processor(raw_image).unsqueeze(0).to('cuda:{}'.format(args.gpu_id))
         llm_message = model.generate({"image": image, "prompt": user_message})[0]
      
         print('Input image: {}'.format(img))
@@ -111,7 +111,7 @@ else: # 'vqa'
         print('Input image: {}'.format(filename))
 
         raw_image = Image.open(os.path.join(img_dir, filename)).convert("RGB")
-        image = vis_processor(raw_image).unsqueeze(0).to('cuda')
+        image = vis_processor(raw_image).unsqueeze(0).to('cuda:{}'.format(args.gpu_id))
 
         for qa in qa_pairs:
             question = qa['question']
